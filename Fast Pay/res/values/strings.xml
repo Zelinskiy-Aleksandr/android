@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fast Pay</string>
+    <string name="title_activity_purchase">Purchase</string>
+    <string name="title_activity_refund">Refund</string>
+    <string name="title_activity_cancel">Void</string>
+    <string name="title_activity_copyreceipt">Copy receipt</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_transaction_result">Transaction result</string>
+    <string name="action_settings">Settings</string>
+    <string name="header">Select operation</string>
+    <string name="purchase">Purchase</string>
+    <string name="refund">Refund</string>
+    <string name="cancel">Void</string>
+    <string name="copyreceipt">Copy receipt</string>
+    <string name="closebatch">Close batch</string>
+    <string name="settings">Settings</string>
+    <string name="amount">Amount:</string>
+    <string name="currency">EUR</string>
+    <string name="numberOfReceipt">Number of receipt:</string>
+    <string name="get_receipt">Get receipt</string>
+    
+</resources>
