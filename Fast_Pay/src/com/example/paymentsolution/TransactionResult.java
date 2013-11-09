@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class TransactionResult  extends Activity implements OnClickListener{
      
 
-	static final String statusLabel[] = {"Swipe a card", "Entry PIN", "Authorisation...", "Transaction is successful"};
+	static final String statusLabel[] = {"Swipe a card", "PIN entry", "Authorisation...", "Transaction is successful"};
 	static final String nameOfPicture[] = {"swipe_card", "pinentry", "authorisation", "ok_icon"};
     
 	
