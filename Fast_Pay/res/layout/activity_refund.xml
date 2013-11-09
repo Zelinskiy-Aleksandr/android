@@ -122,7 +122,7 @@
                />
             <Button
                 android:id="@+id/btnBackspaceId"
-                android:text="&lt;-"
+                android:text="←"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/buttonheight"
                 android:layout_weight="1"
@@ -131,7 +131,7 @@
              />
             <Button
                 android:id="@+id/btnPayId"
-                android:text="NEXT"
+                android:text="OK"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/buttonheight"
                 android:layout_weight="1"

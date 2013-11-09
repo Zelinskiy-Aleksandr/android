@@ -13,7 +13,7 @@ public class Refund extends Activity{
 	EditText amount;
     StringBuilder amountValue = new StringBuilder();
 	static final String nameOfButton[] = {"btnNum1Id", "btnNum2Id", "btnNum3Id", "btnNum4Id", "btnNum5Id", "btnNum6Id", "btnNum7Id", "btnNum8Id", "btnNum9Id", "btnNum0Id", "btnBackspaceId", "btnPayId"};
-	private static final String actionName = "NEXT";
+	private static final String actionName = "OK";
 	Intent action = new Intent("com.example.paymentsolution.TransactionResult");
 	
 	

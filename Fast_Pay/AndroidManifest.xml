@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.paymentsolution.Purchase"
+            android:name="com.example.paymentsolution.Purchase" 
             android:label="@string/title_activity_purchase" 
             android:screenOrientation="nosensor">
             <intent-filter>

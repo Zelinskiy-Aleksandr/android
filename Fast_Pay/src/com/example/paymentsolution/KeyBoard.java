@@ -34,7 +34,7 @@ public class KeyBoard implements OnClickListener{
         if((amountValue.length() == 0) && (button.getText().equals("0")))
 	           return;
   
-	    if(button.getText().equals("<-") && (amountValue.length() != 0))
+	    if(button.getText().equals("←") && (amountValue.length() != 0))
 		   {
 			   amountValue.deleteCharAt(amountValue.length() - 1); 
 			   amount.setText(FormatMethods.formatAmount(amountValue, CURRENCY_EXPONENTA));
@@ -43,7 +43,7 @@ public class KeyBoard implements OnClickListener{
 	    if(amountValue.length() == 0)	      
 			   amount.setText(INITIAL_AMOUNT);
 		
-	    if(!button.getText().equals("<-") && !button.getText().equals(actionName) && (amountValue.length() < MAXIMUM_AMOUNT_LENGTH))
+	    if(!button.getText().equals("←") && !button.getText().equals(actionName) && (amountValue.length() < MAXIMUM_AMOUNT_LENGTH))
 		   {
 					   
 			   amountValue.append(button.getText().toString());

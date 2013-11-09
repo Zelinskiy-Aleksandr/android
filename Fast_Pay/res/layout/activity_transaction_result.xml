@@ -14,7 +14,7 @@
      
    <ImageButton
         android:id="@+id/status_button"
-        android:layout_margin="10dp" 
+        android:layout_margin="20dp" 
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,10 +24,10 @@
         android:id="@+id/status_label"
         android:layout_above="@id/status_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content"  
         android:gravity="center"
         android:textAppearance="@style/headerstyle"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         />   
         
     <Button
@@ -38,7 +38,7 @@
         android:text="@string/get_receipt"
         android:layout_centerHorizontal="true"
         android:visibility="invisible"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         />
 
 
