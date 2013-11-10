@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#faeedd"
+   
+    >
+    
+    
+         />
+    
+    
+    <ScrollView 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+     >       
+     
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         >
+              <TextView
+                  android:id="@+id/receiptlabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="@style/headerstyle"
+                  android:text="Your receipt"
+                  android:layout_centerHorizontal="true"
+                  android:layout_margin="20dp" />
+    
+        
+         
+             <TextView 
+              android:id="@+id/receipt"  
+              android:layout_below="@id/receiptlabel"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" 
+              android:layout_centerHorizontal="true"
+              android:text="ID ТЕРМІНАЛА: MCD00003\n\nID ТОЧКИ    : MERMCD00003\n\n---------------------------------\n\n             ЧЕК  19             \n\n          ОПЛАТА ТОВАРУ          \n\nСУМА:                    6.50 ГРН\n\n             УСПІШНО             \n\nКОД ВІДПОВІДІ: 00\nMasterCard                     50\nXXXXXXXXXXXX3039            12/15\nMASTER TEST\nКОД АВТОРИЗАЦІЇ:           E87989\nНОМЕР ПОСИЛАННЯ:     003272387989\nПОРЯД. НОМЕР:              000051\nНОМЕР ЦИКЛУ:               000009\n\nДАТА: 07/02/2013    ЧАС: 15:57:34\n\n Пiдпис вiд клiєнта не потрiбен  \n\n             ДЯКУЄМО             \n\n"
+              android:typeface="monospace"
+              ></TextView>
+             
+              <Button
+                  android:id="@+id/exit"
+                  android:text="@string/exit"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/receipt"
+                  android:layout_centerHorizontal="true"
+                  android:layout_margin="20dp"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="20dp"                  />
+        </RelativeLayout> 
+            
+     </ScrollView>
+     
+
+     
+     
+  "
+</RelativeLayout>
