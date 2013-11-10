@@ -49,11 +49,11 @@ public final class R {
         public static final int swipe_card=0x7f020010;
     }
     public static final class id {
-        public static final int Cancel=0x7f090014;
-        public static final int CopyReceipt=0x7f090015;
-        public static final int Purchase=0x7f090012;
-        public static final int Refund=0x7f090013;
-        public static final int action_settings=0x7f09001b;
+        public static final int Cancel=0x7f090017;
+        public static final int CopyReceipt=0x7f090018;
+        public static final int Purchase=0x7f090015;
+        public static final int Refund=0x7f090016;
+        public static final int action_settings=0x7f09001e;
         public static final int amount=0x7f090002;
         public static final int amountlabel=0x7f090001;
         public static final int btnBackspaceId=0x7f09000f;
@@ -68,45 +68,51 @@ public final class R {
         public static final int btnNum8Id=0x7f09000c;
         public static final int btnNum9Id=0x7f09000d;
         public static final int btnPayId=0x7f090010;
-        public static final int closeday=0x7f090016;
+        public static final int closeday=0x7f090019;
         public static final int currency=0x7f090003;
         public static final int enteramount=0x7f090000;
-        public static final int get_receipt=0x7f09001a;
-        public static final int header=0x7f090011;
-        public static final int settings=0x7f090017;
-        public static final int status_button=0x7f090018;
-        public static final int status_label=0x7f090019;
+        public static final int exit=0x7f090013;
+        public static final int get_receipt=0x7f09001d;
+        public static final int header=0x7f090014;
+        public static final int receipt=0x7f090012;
+        public static final int receiptlabel=0x7f090011;
+        public static final int settings=0x7f09001a;
+        public static final int status_button=0x7f09001b;
+        public static final int status_label=0x7f09001c;
         public static final int tableId=0x7f090004;
     }
     public static final class layout {
         public static final int activity_cancel=0x7f030000;
         public static final int activity_copyreceipt=0x7f030001;
         public static final int activity_purchase=0x7f030002;
-        public static final int activity_refund=0x7f030003;
-        public static final int activity_select_operation=0x7f030004;
-        public static final int activity_splash=0x7f030005;
-        public static final int activity_transaction_result=0x7f030006;
+        public static final int activity_receipt=0x7f030003;
+        public static final int activity_refund=0x7f030004;
+        public static final int activity_select_operation=0x7f030005;
+        public static final int activity_splash=0x7f030006;
+        public static final int activity_transaction_result=0x7f030007;
     }
     public static final class menu {
         public static final int select_operation=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060007;
-        public static final int amount=0x7f06000f;
+        public static final int action_settings=0x7f060008;
+        public static final int amount=0x7f060010;
         public static final int app_name=0x7f060000;
-        public static final int cancel=0x7f06000b;
-        public static final int closebatch=0x7f06000d;
-        public static final int copyreceipt=0x7f06000c;
-        public static final int currency=0x7f060010;
-        public static final int get_receipt=0x7f060012;
-        public static final int header=0x7f060008;
-        public static final int numberOfReceipt=0x7f060011;
-        public static final int purchase=0x7f060009;
-        public static final int refund=0x7f06000a;
-        public static final int settings=0x7f06000e;
+        public static final int cancel=0x7f06000c;
+        public static final int closebatch=0x7f06000e;
+        public static final int copyreceipt=0x7f06000d;
+        public static final int currency=0x7f060011;
+        public static final int exit=0x7f060014;
+        public static final int get_receipt=0x7f060013;
+        public static final int header=0x7f060009;
+        public static final int numberOfReceipt=0x7f060012;
+        public static final int purchase=0x7f06000a;
+        public static final int refund=0x7f06000b;
+        public static final int settings=0x7f06000f;
         public static final int title_activity_cancel=0x7f060003;
         public static final int title_activity_copyreceipt=0x7f060004;
         public static final int title_activity_purchase=0x7f060001;
+        public static final int title_activity_receipt=0x7f060007;
         public static final int title_activity_refund=0x7f060002;
         public static final int title_activity_splash=0x7f060005;
         public static final int title_activity_transaction_result=0x7f060006;

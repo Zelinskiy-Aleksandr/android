@@ -8,17 +8,19 @@
     <string name="title_activity_copyreceipt">Copy receipt</string>
     <string name="title_activity_splash">Splash</string>
     <string name="title_activity_transaction_result">Transaction result</string>
+    <string name="title_activity_receipt">Your receipt</string>
     <string name="action_settings">Settings</string>
     <string name="header">Select operation</string>
     <string name="purchase">Purchase</string>
     <string name="refund">Refund</string>
     <string name="cancel">Void</string>
-    <string name="copyreceipt">Copy receipt</string>
+    <string name="copyreceipt">Receipt copy</string>
     <string name="closebatch">Close batch</string>
     <string name="settings">Settings</string>
     <string name="amount">Amount:</string>
     <string name="currency">EUR</string>
     <string name="numberOfReceipt">Number of receipt:</string>
     <string name="get_receipt">Get receipt</string>
+    <string name="exit">Exit</string>
     
 </resources>
