@@ -25,6 +25,7 @@ public class TransactionResult  extends Activity implements OnClickListener{
 	@Override
 
 	protected void onCreate(Bundle savedInstanceState) {
+		
 		super.onCreate(savedInstanceState);
 	    setContentView(R.layout.activity_transaction_result);
 	    status = (TextView)findViewById(R.id.status_label);
@@ -57,11 +58,8 @@ public class TransactionResult  extends Activity implements OnClickListener{
 		    	this.finish();
 		    }
 		    if(exit == v)
-		    {
-		    	Intent intent = new Intent("com.example.paymentsolution.SelectOperation");
-		    	startActivity(intent);
-		    	this.finish();
-		    }
+		     	this.finish();
+		    
 		    
 		      
 		

@@ -1,5 +1,6 @@
 package com.example.paymentsolution;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.View;
@@ -51,8 +52,10 @@ public class KeyBoard implements OnClickListener{
 		   }
 	    
 	    if(button.getText().equals(actionName) && !amount.getText().toString().equals(INITIAL_AMOUNT))
-	        v.getContext().startActivity(action);
-	    	
+	    {
+	    	v.getContext().startActivity(action);
+	        ((Activity)v.getContext()).finish();
+	    }	
 		
 	}
 

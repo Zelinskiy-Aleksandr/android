@@ -24,8 +24,6 @@ public class Receipt extends Activity implements OnClickListener{
 
 	@Override
 	public void onClick(View view) {
-		Intent intent = new Intent("com.example.paymentsolution.SelectOperation");
-		startActivity(intent);
 		this.finish();
 	}
 
